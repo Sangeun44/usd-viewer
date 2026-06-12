@@ -1,3 +1,43 @@
+# USD Viewer
+
+A browser-based 3D asset viewer and scene graph inspector built with React, Three.js, and Node.js.
+
+## Features
+- Upload and view GLB/glTF files directly in the browser
+- Inspect scene graph data including meshes, materials, and nodes
+- Node/Express backend for server-side asset parsing
+- Orbit controls for rotating and zooming the model
+
+## Live Demo
+https://Sangeun44.github.io/usd-viewer
+
+## Tech Stack
+- React + Vite
+- Three.js / @react-three/fiber / @react-three/drei
+- Node.js + Express
+- Multer for file handling
+
+## Running Locally
+
+**Frontend:**
+```bash
+cd usd-viewer
+npm install
+npm run dev
+```
+
+**Backend:**
+```bash
+cd usd-viewer/server
+npm install
+node index.js
+```
+
+Then open http://localhost:5173 in your browser.
+
+## Background
+Built as a portfolio piece exploring 3D asset delivery pipelines — the same domain as Adobe's 3D Workflows team and Foundry's Griptape platform. Inspired by production USD/glTF pipeline work in virtual production and digital twin contexts.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
